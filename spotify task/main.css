@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 20px;
+    border: 2px solid white;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border: 50px;
+    border: solid;
+    padding: 50px;
+}
+
+.card1 button,
+.card2 button,
+.card3 button {
+    margin-top: 20px;
+    font-size: 18 px;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card1 button:hover,
+.card2 button:hover,
+.card3 button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+
+
